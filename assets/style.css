@@ -1,0 +1,6 @@
+/* add some kind of border on your name */
+body header h2 {
+    font-size: large;
+    font-family: serif;
+}
+/* why doesnt this font work? */
