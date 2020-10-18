@@ -4,3 +4,6 @@ body header h2 {
     font-family: serif;
 }
 /* why doesnt this font work? */
+.double {
+    border-style: solid;
+}
