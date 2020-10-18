@@ -2,14 +2,24 @@
 :root {
     --main-blue: rgb(63, 125, 233)
 }
+
+html {
+    background-color: black;
+}
+
 h1 {
     font-size: 40px;
     font-family: serif;
     color: var(--main-blue);
 }
-/* why doesnt this font work? */
+
+h2 {
+    color: var(--main-blue);
+}
+
 .description {
     font-family: serif;
+    color: var(--main-blue);
 }
 
 .navbar {
@@ -20,6 +30,15 @@ h1 {
     list-style: none;
     font-size: 15px;
     color: var(--main-blue);
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-blue);
+}
+
+img {
+    border: var(--main-blue);
 }
 
 .auto {
