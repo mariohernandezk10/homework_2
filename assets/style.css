@@ -1,9 +1,28 @@
 /* add some kind of border on your name */
-body header h2 {
-    font-size: large;
+:root {
+    --main-blue: rgb(63, 125, 233)
+}
+h1 {
+    font-size: 40px;
     font-family: serif;
+    color: var(--main-blue);
 }
 /* why doesnt this font work? */
-.double {
-    border-style: solid;
+.description {
+    font-family: serif;
 }
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 15px;
+    color: var(--main-blue);
+}
+
+.auto {
+    margin-right: auto;
+}
+/* I found this on TA's page */
