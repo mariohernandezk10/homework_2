@@ -4,6 +4,7 @@
 }
 
 html {
+    font-size: 62.5%;
     background-color: black;
     background-image: url(https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=626&ext=jpg);
 }
@@ -11,7 +12,7 @@ html {
 h2 {
     color: var(--main-blue);
     text-align: center;
-    font-size: 80px;
+    font-size: 4rem;
 }
 
 .description {
@@ -58,13 +59,13 @@ section {
 }
 
 a {
-    font-size: 50px;
+    font-size: 4rem;
     text-decoration: none;
     color: var(--main-blue);
 }
 
 p {
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 img {
