@@ -12,24 +12,24 @@
 
 html {
     font-size: 62.5%;
-    background: linear-gradient(90deg, lightCyan, skyBlue);
+    background-image: url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=markus-spiske-qjnAnF0jIGk-unsplash.jpg);
+    background-size: 100%;
 }
 
-.pBackground {
-    clear: both;
+/* .about-me {
+    border: solid blue 1px;
+} */
+
+.img-h3 {
+    border: solid black 1px;
 }
-/* I was tring to make a container for the image and 
-paragraph so they can both be inside but the image on the left and 
-the paragraph on the right */
 
 h3 {
-    color: var(--main-blue);
+    color: darkgreen;
     text-align: left;
     font-size: 3rem;
-    background: black;
-    background-color: black;
-    background-size: cover;
     font-family: serif;
+    width: 79%;
 }
 
 /* how do i make the black background not extend out???
@@ -71,25 +71,24 @@ I am tring to make a bigger space in between the navigation bar and the About me
 }
 
 section {
-    clear: both;
     border-style: groove;
+    border-radius: 20px 20px 20px 20px;
     color: darkgray;
     width: auto;
-    /* height: 400%; */
     text-align: center;
     margin: 80px;
-    background-image: url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=markus-spiske-qjnAnF0jIGk-unsplash.jpg);
+    background: linear-gradient(90deg, lightCyan, skyBlue); filter: opacity(90%);
     background-repeat: no-repeat;
     background-size: 100%;
     /* im not sure why the blur didn'work?? maybe I dont need to. I JUST WANT TO BE ABLE TO SEE THE WORDS */
 }
 
-div h2 {
-    color: var(--main-blue);
+.about-me h2 {
+    color: darkgreen;
     text-align: center;
-    font-size: 4rem;
-    background: black;
-    background-size: 50px;
+    font-size: 5rem;
+    float: left;
+    width: 100%;
 }
 
 a {
@@ -110,6 +109,8 @@ img {
     margin-right: 25px; */
     filter: saturate(120%) brightness(120%);
     border-radius: 50px 50px 50px 50px;
+    position: relative;
+    margin: 25px 25px 5px 25px;
 }
 
 .left {
