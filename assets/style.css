@@ -76,3 +76,26 @@ img {
     filter: saturate(120%) brightness(120%);
     border-radius: 50px 50px 50px 50px;
 }
+
+/* why didn't this do anything?? */
+
+@media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+    /* Change the header color */
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+    /* Change the header color */
+    header {
+      background: #8ac4ff;
+    }
+  }
