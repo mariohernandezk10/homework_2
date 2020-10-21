@@ -12,8 +12,7 @@
 
 html {
     font-size: 62.5%;
-    background-color: black;
-    background-image: url(https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=626&ext=jpg);
+    background: linear-gradient(lightCyan, skyBlue);
 }
 
 h2 {
@@ -71,6 +70,7 @@ section {
     height: auto;
     text-align: center;
     margin: 80px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXOL3nYZO0pRY31Vl34m1V0E9nMVknVxgAsQ&usqp=CAU);
 }
 
 a {
