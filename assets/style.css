@@ -15,16 +15,6 @@ html {
     background: linear-gradient(90deg, lightCyan, skyBlue);
 }
 
-h2 {
-    color: var(--main-blue);
-    text-align: center;
-    font-size: 4rem;
-    background: black;
-    background-size: contain;
-}
-
-/* I need to do the same thing here where the black background is decreased to the content */
-
 .pBackground {
     clear: both;
 }
@@ -92,6 +82,14 @@ section {
     background-repeat: no-repeat;
     background-size: 100%;
     /* im not sure why the blur didn'work?? maybe I dont need to. I JUST WANT TO BE ABLE TO SEE THE WORDS */
+}
+
+div h2 {
+    color: var(--main-blue);
+    text-align: center;
+    font-size: 4rem;
+    background: black;
+    background-size: 50px;
 }
 
 a {
