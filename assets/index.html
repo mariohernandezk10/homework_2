@@ -8,28 +8,33 @@
     <title>Mario's Portfolio</title>
 </head>
 <body>
-    <nav>
-        <div class="topnavleft">
-          <a href="index.html"><strong>Mario Hernandez</strong></a>
-        </div>
-        <div class="topnavright">
-            <a href="#">Home |</a>
-            <a href="#">Portfolio |</a>
-            <a href="#">Contact |</a>
-            <a href="#">Resume</a>
-        </div>
-      </nav>
-    <section>
+    <div class="wrapper">
+    <!-- BY ADDING A WRAPPER DIV AROUND THE NAVIGATION BAR I CLEARFIX AND THEN ADJUSTED THE MARGIN
+    AND IT WORKED!!! -->
+        <nav style="clear: both;">
+            <div class="topnavleft">
+            <a href="index.html"><strong>Mario Hernandez</strong></a>
+            </div>
+            <div class="topnavright">
+                <a href="#">Home |</a>
+                <a href="#">Portfolio |</a>
+                <a href="#">Contact |</a>
+                <a href="#">Resume</a>
+            </div>
+        </nav>
+    </div>
+      <!-- why didn't the clear: both style work?? -->
+    <section style="clear: both;">
         <h2>About me</h2>
         <img src="file:///Users/Hernandez/Desktop/Desktop/Team%20Enterprise/Profile%20photos/Face%20Shot.jpg" alt="image of me"/>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur p
+        <h3 class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur p
             raesentium explicabo incidunt dolor ducimus velit eveniet est modi magni 
             amet nesciunt, perferendis et quia aperiam qui? Enim pariatur unde eum. Lorem, ipsum dolor 
             sit amet consectetur adipisicing elit. Reprehenderit eum tenetur praesentium placeat sed 
             ipsam beatae, similique pariatur repellat cum temporibus porro, amet laborum aliquam consequatur 
             iusto ullam, quaerat quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati 
             iste ad, ut impedit hic nostrum id nihil. Nemo placeat, laborum mollitia quasi sit, eligendi, 
-            vitae debitis quas tempore at quidem.</p>
+            vitae debitis quas tempore at quidem.</h3>
     </section>
     <!-- <footer> -->
         <!-- <section> -->

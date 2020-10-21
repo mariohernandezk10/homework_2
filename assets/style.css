@@ -3,6 +3,13 @@
     --main-blue: rgb(63, 125, 233)
 }
 
+/* I didnt use the clearfix class but I could have if I wanteed to, I wrote it in line instead */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 html {
     font-size: 62.5%;
     background-color: black;
@@ -13,6 +20,12 @@ h2 {
     color: var(--main-blue);
     text-align: center;
     font-size: 4rem;
+}
+
+h3 {
+    color: var(--main-blue);
+    text-align: left;
+    font-size: 3rem;
 }
 
 .description {
@@ -48,14 +61,16 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0; */
 }
-
+/* I tried putting the clear both and it didn't work here either
+I am tring to make a bigger space in between the navigation bar and the About me */
 section {
+    clear: both;
     border-style: groove;
     color: darkgray;
     width: 90%;
     height: auto;
     text-align: center;
-    margin: auto;
+    margin: 80px;
 }
 
 a {
@@ -68,11 +83,17 @@ p {
     font-size: 3rem;
 }
 
+.wrapper {
+    clear: both;
+    margin-bottom: 200px;
+}
+
 img {
     width: 17%;
     height: auto;
     float: left;
-    margin-left: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
     filter: saturate(120%) brightness(120%);
     border-radius: 50px 50px 50px 50px;
 }
