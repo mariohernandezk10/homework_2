@@ -19,27 +19,40 @@ h2 {
     color: var(--main-blue);
     text-align: center;
     font-size: 4rem;
+    background: black;
+    background-size: contain;
 }
+
+/* I need to do the same thing here where the black background is decreased to the content */
+
+.pBackground {
+    clear: both;
+}
+/* I was tring to make a container for the image and 
+paragraph so they can both be inside but the image on the left and 
+the paragraph on the right */
 
 h3 {
     color: var(--main-blue);
     text-align: left;
     font-size: 3rem;
+    background: black;
+    background-color: black;
+    background-size: cover;
+    font-family: serif;
 }
 
-.description {
-    font-family: serif;
-    color: var(--main-blue);
-}
+/* how do i make the black background not extend out???
+I tried adding a span but I couldnt get it to work*/
 
 nav {
     margin: auto;
     display: flex;
-    width: 100%;
+    /* width: 100%;
     margin-left: 2%;
     height: 50px;
     line-height: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
 
     /* font-size: 15px; */
     /* justify-content: flex-end;
@@ -62,25 +75,29 @@ nav {
 }
 /* I tried putting the clear both and it didn't work here either
 I am tring to make a bigger space in between the navigation bar and the About me */
+
+.container {
+    height: 500px;
+}
+
 section {
     clear: both;
     border-style: groove;
     color: darkgray;
-    width: 90%;
-    height: auto;
+    width: auto;
+    /* height: 400%; */
     text-align: center;
     margin: 80px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXOL3nYZO0pRY31Vl34m1V0E9nMVknVxgAsQ&usqp=CAU);
+    background-image: url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=markus-spiske-qjnAnF0jIGk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* im not sure why the blur didn'work?? maybe I dont need to. I JUST WANT TO BE ABLE TO SEE THE WORDS */
 }
 
 a {
     font-size: 5rem;
     text-decoration: none;
     color: var(--main-blue);
-}
-
-p {
-    font-size: 3rem;
 }
 
 .wrapper {
@@ -91,11 +108,14 @@ p {
 img {
     width: 17%;
     height: auto;
-    float: left;
-    margin-left: 25px;
-    margin-right: 25px;
+    /* margin-left: 25px;
+    margin-right: 25px; */
     filter: saturate(120%) brightness(120%);
     border-radius: 50px 50px 50px 50px;
+}
+
+.left {
+    float: left;
 }
 
 /* why didn't this do anything?? */
