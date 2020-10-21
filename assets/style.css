@@ -50,16 +50,16 @@ nav {
 }
 
 section {
-    border-style: solid;
+    border-style: groove;
     color: darkgray;
-    width: 60%;
+    width: 90%;
     height: auto;
     text-align: center;
     margin: auto;
 }
 
 a {
-    font-size: 4rem;
+    font-size: 5rem;
     text-decoration: none;
     color: var(--main-blue);
 }
@@ -69,14 +69,10 @@ p {
 }
 
 img {
-    border: var(--main-blue);
-    width: 30%;
+    width: 17%;
     height: auto;
     float: left;
     margin-left: 15px;
+    filter: saturate(120%) brightness(120%);
+    border-radius: 50px 50px 50px 50px;
 }
-
-.auto {
-    margin-right: auto;
-}
-/* I found this on TA's page */
