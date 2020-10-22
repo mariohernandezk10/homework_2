@@ -20,10 +20,6 @@ html {
     border: solid blue 1px;
 } */
 
-.img-h3 {
-    border: solid black 1px;
-}
-
 h3 {
     color: darkgreen;
     text-align: left;
@@ -71,9 +67,7 @@ I am tring to make a bigger space in between the navigation bar and the About me
 }
 
 section {
-    border-style: groove;
     border-radius: 20px 20px 20px 20px;
-    color: darkgray;
     width: auto;
     text-align: center;
     margin: 80px;
@@ -120,8 +114,9 @@ img {
 /* why didn't this do anything?? */
 
 @media screen and (max-width: 992px) {
-    .card {
-      width: 50%;
+    a {
+        font-size: 4rem;
+        width: 100%;
     }
     /* Change the header color */
     header {
