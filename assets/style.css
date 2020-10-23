@@ -11,11 +11,14 @@
   }
 
 html {
-    font-size: 62.5%;
+    font-size: 55%;
     background-image: url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=markus-spiske-qjnAnF0jIGk-unsplash.jpg);
     background-size: 100%;
 }
 
+body {
+    margin: 0 0 0 0;
+}
 /* .about-me {
     border: solid blue 1px;
 } */
@@ -49,7 +52,7 @@ section {
     width: auto;
     text-align: center;
     margin: 80px;
-    background: linear-gradient(90deg, lightCyan, skyBlue); filter: opacity(90%);
+    background: linear-gradient(90deg, lightCyan, skyBlue); filter: opacity(100%);
     background-repeat: no-repeat;
     background-size: 100%;
     /* im not sure why the blur didn'work?? maybe I dont need to. I JUST WANT TO BE ABLE TO SEE THE WORDS */
@@ -63,10 +66,10 @@ section {
     width: 100%;
 }
 
-a {
+nav a {
     font-size: 5rem;
     text-decoration: none;
-    color: var(--main-blue);
+    color: rgba(255, 255, 255, 0.776);
 }
 
 .wrapper {
@@ -89,7 +92,48 @@ img {
     float: left;
 }
 
-/* why didn't this do anything?? */
+/* how to take off the margins so that the border is touching the very edge*/
+
+.footer-container {
+    background: gray;
+    margin-bottom: 0%;
+    width: 100%;
+    border: gray;
+    border-style: solid;
+    height: 75px;
+    font-size: 2.5rem;
+}
+
+.footer-style {
+    font-family: "Helvetica Neue" , Arial, sans-serif;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* I wanted to add a class to each individual div so I can move
+them but I didn't have to I just put
+display: flex;
+    justify-content: space-evenly;
+inside the parent class */
+
+/* .foot-div1 {
+    display: flex;
+    align-items: center;
+}
+
+.foot-div2 {
+    justify-content: space-between;
+}
+
+.foot-div3 {
+    justify-content: space-between;
+} */
+
 
 @media screen and (max-width: 992px) {
     a {
